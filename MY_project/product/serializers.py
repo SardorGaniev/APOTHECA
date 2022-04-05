@@ -76,3 +76,5 @@ class DrugListSerializer(serializers.ModelSerializer):
         brand = getattr(obj, 'brand', None)
         return getattr(brand, 'name', 'no brand')
 
+    # test
+
